@@ -20,11 +20,8 @@
   }
 }
 
-
-.plant-destroy {
+.card-action {
   position: absolute;
-  top: 5px;
-  right: 10px;
   color: white;
   text-decoration: none;
   border: solid 1px;
@@ -33,4 +30,45 @@
   /* height: 20px; */
   /* width: 20px; */
   font-size: 11px;
+
+  &:hover {
+    color: rgb(220, 200, 220);
+    text-decoration: none;
+  }
 }
+
+.plant-destroy {
+  top: 5px;
+  right: 10px;
+
+}
+
+.add-tag {
+  top: 5px;
+  left: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+
+.card-tags {
+  position: absolute;
+  bottom: 39px;
+  left: 8px;
+
+  span {
+    background: $blue;
+    font-size: .7em;
+    padding: 2px 4px;
+    border-radius: 3px;
+  }
+  a {
+    color: white;
+  }
+}
+
+
+

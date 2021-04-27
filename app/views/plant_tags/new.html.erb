@@ -1,0 +1,13 @@
+<div class="container">
+  <div class="row">
+    <div class="col-6 offset-3">
+      <h2 class="text-center">Add plant</h2>
+      <%= simple_form_for [@plant, @plant_tag ] do |f| %>
+        <%= f.input :tag, collection: Tag.all, input_html: { multiple: true, include_hidden: false } %>
+        <%= f.submit "Associate Tag", class: 'btn btn-primary' %>
+      <% end %>
+
+    </div>
+  </div>
+</div>
+
