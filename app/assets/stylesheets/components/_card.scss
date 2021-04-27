@@ -1,0 +1,36 @@
+.plant-card {
+  height: 200px;
+  background-size: cover;
+  color: white;
+  position: relative;
+  display: flex;
+
+  h4 {
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+    a {
+      text-decoration: none;
+      color: white;
+
+      &:hover {
+        color: rgb(220, 220, 220);
+      }
+    }
+  }
+}
+
+
+.plant-destroy {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  color: white;
+  text-decoration: none;
+  border: solid 1px;
+  padding: 2px 5px;
+  border-radius: 50%;
+  /* height: 20px; */
+  /* width: 20px; */
+  font-size: 11px;
+}
